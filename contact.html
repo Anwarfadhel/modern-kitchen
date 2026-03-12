@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تواصل معنا | مطابخ مودرن - اطلب تصميم مطبخك</title>
+    <meta name="description"
+        content="تواصل مع مطابخ مودرن للحصول على استشارة مجانية وتصميم مطبخك العصري. اتصل بنا أو تواصل عبر واتساب.">
+    <meta name="keywords" content="تواصل مطابخ مودرن, اطلب مطبخ, تصميم مطبخ">
+    <meta property="og:title" content="تواصل معنا | مطابخ مودرن - اطلب تصميم مطبخك">
+    <meta property="og:description"
+        content="تواصل مع مطابخ مودرن للحصول على استشارة مجانية وتصميم مطبخك العصري. اتصل بنا أو تواصل عبر واتساب.">
+    <meta property="og:image" content="assets/images/hero-kitchen.png">
+    <meta property="og:type" content="website">
+    <link rel="icon" href="assets/logo.svg" type="image/png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <a href="index.html" class="navbar__logo"><img src="assets/logo.svg" alt="مطابخ مودرن"></a>
+            <div class="navbar__links" id="navLinks">
+                <a href="index.html" class="navbar__link">الرئيسية</a>
+                <a href="services.html" class="navbar__link">خدماتنا</a>
+                <a href="gallery.html" class="navbar__link">معرض الأعمال</a>
+                <a href="about.html" class="navbar__link">من نحن</a>
+                <a href="blog.html" class="navbar__link">المدونة</a>
+                <a href="contact.html" class="navbar__link active">تواصل معنا</a>
+                <a href="contact.html" class="btn btn--primary navbar__cta">اطلب تصميمك</a>
+            </div>
+            <div class="navbar__toggle" id="navToggle"><span></span><span></span><span></span></div>
+        </div>
+    </nav>
+    <div class="nav-overlay" id="navOverlay"></div>
+
+    <div class="page-header">
+        <div class="container">
+            <h1 class="page-header__title">تواصل معنا</h1>
+            <p class="page-header__breadcrumb"><a href="index.html">الرئيسية</a> / تواصل معنا</p>
+        </div>
+    </div>
+
+    <section class="section">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-subtitle">نسعد بخدمتك</span>
+                <h2 class="section-title">تواصل معنا اليوم</h2>
+                <div class="accent-line"></div>
+                <p class="section-desc">احصل على استشارة مجانية وعرض سعر مخصص لمطبخك</p>
+            </div>
+            <div class="contact-wrapper">
+                <div class="contact-info reveal">
+                    <h3 class="contact-info__title">لنبدأ مشروعك</h3>
+                    <p class="contact-info__desc">فريقنا جاهز لمساعدتك في تصميم وتنفيذ مطبخ أحلامك. تواصل معنا الآن.</p>
+                    <div class="contact-info__item">
+                        <div class="contact-info__icon"><i class="fas fa-phone-alt"></i></div>
+                        <div class="contact-info__text">
+                            <h4>اتصل بنا</h4>
+                            <p dir="ltr">+966 55 845 9841</p>
+                        </div>
+                    </div>
+                    <div class="contact-info__item">
+                        <div class="contact-info__icon"><i class="fab fa-whatsapp"></i></div>
+                        <div class="contact-info__text">
+                            <h4>واتساب</h4>
+                            <p dir="ltr">+966 55 845 9841</p>
+                        </div>
+                    </div>
+                    <div class="contact-info__item">
+                        <div class="contact-info__icon"><i class="fas fa-envelope"></i></div>
+                        <div class="contact-info__text">
+                            <h4>موقعك / مكان السكن</h4>
+                            <input type="text" name="client_location" placeholder="مثال: الرياض - حي النرجس"
+                                class="contact-input">
+                        </div>
+                    </div>
+                    <div class="contact-info__item">
+                        <div class="contact-info__icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div class="contact-info__text">
+                            <h4>العنوان</h4>
+                            <p>المملكة العربية السعودية</p>
+                        </div>
+                    </div>
+                    <div class="contact-info__item">
+                        <div class="contact-info__icon"><i class="fas fa-clock"></i></div>
+                        <div class="contact-info__text">
+                            <h4>ساعات العمل</h4>
+                            <p>السبت - الخميس: ٨ صباحاً - ١٠ مساءً</p>
+                        </div>
+                    </div>
+                    <div class="contact-buttons">
+                        <a href="tel:+966558459841" class="btn btn--primary"><i class="fas fa-phone-alt"></i> اتصل
+                            الآن</a>
+                        <a href="https://wa.me/966558459841" target="_blank" class="btn btn--whatsapp"><i
+                                class="fab fa-whatsapp"></i> واتساب</a>
+                    </div>
+                </div>
+                <form class="contact-form reveal reveal-delay-2" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">الاسم الكامل *</label>
+                        <input type="text" id="name" name="name" placeholder="أدخل اسمك" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">رقم الجوال *</label>
+                        <input type="tel" id="phone" name="phone" placeholder="05XXXXXXXX" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="location">موقعك أو مكان السكن *</label>
+                        <input type="text" id="location" name="location"
+                            placeholder="اكتب موقعك أو مكان سكنك (مثال: الرياض - حي النرجس)" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="service">الخدمة المطلوبة *</label>
+                        <select id="service" name="service" required>
+                            <option value="">اختر الخدمة</option>
+                            <option value="تصميم مطابخ مودرن">تصميم مطابخ مودرن</option>
+                            <option value="تفصيل مطابخ">تفصيل مطابخ حسب الطلب</option>
+                            <option value="مطابخ خشب">مطابخ خشب</option>
+                            <option value="مطابخ ألمنيوم">مطابخ ألمنيوم</option>
+                            <option value="تجديد مطابخ">تجديد المطابخ</option>
+                            <option value="صيانة مطابخ">صيانة المطابخ</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">تفاصيل المشروع</label>
+                        <textarea id="message" name="message" placeholder="اكتب تفاصيل مطبخك المطلوب..."
+                            rows="5"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn--primary btn--large" style="width:100%;"><i
+                            class="fas fa-paper-plane"></i> إرسال الطلب</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <div class="footer__logo"><img src="assets/logo.svg" alt="مطابخ مودرن"></div>
+                    <p class="footer__about">مطابخ مودرن - شركة متخصصة في تصميم وتنفيذ المطابخ العصرية.</p>
+                    <div class="footer__social">
+                        <a href="https://www.instagram.com/cheetah.295295?igsh=aTEyNHp6MndlN3J6"
+                            class="footer__social-link" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.tiktok.com/@user1699991954633" class="footer__social-link"
+                            target="_blank"><i class="fab fa-tiktok"></i></a>
+                        <a href="https://www.snapchat.com/add/bwrknlhmyqny26?share_id=SF7u6Dhm6Oc&locale=ar-EG-u-nu-latn"
+                            class="footer__social-link" target="_blank"><i class="fab fa-snapchat"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="footer__title">روابط سريعة</h3>
+                    <div class="footer__links">
+                        <a href="index.html" class="footer__link">الرئيسية</a>
+                        <a href="services.html" class="footer__link">خدماتنا</a>
+                        <a href="gallery.html" class="footer__link">معرض الأعمال</a>
+                        <a href="about.html" class="footer__link">من نحن</a>
+                        <a href="contact.html" class="footer__link">تواصل معنا</a>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="footer__title">خدماتنا</h3>
+                    <div class="footer__links">
+                        <a href="services.html" class="footer__link">تصميم مطابخ</a>
+                        <a href="services.html" class="footer__link">تفصيل مطابخ</a>
+                        <a href="services.html" class="footer__link">مطابخ خشب</a>
+                        <a href="services.html" class="footer__link">مطابخ ألمنيوم</a>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="footer__title">تواصل معنا</h3>
+                    <div class="footer__links">
+                        <a href="tel:+966558459841" class="footer__link"><i class="fas fa-phone-alt"
+                                style="margin-left:8px;"></i> +966 55 845 9841</a>
+                        <a href="mailto:modernkitchen74@gmail.com" class="footer__link"><i class="fas fa-envelope"
+                                style="margin-left:8px;"></i> modernkitchen74@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>© 2026 مطابخ مودرن. جميع الحقوق محفوظة.</p>
+                <p class="footer__designer">
+                    تصميم
+                    <a href="https://wa.me/967779781978" target="_blank" rel="noopener noreferrer">إبداع ويب</a>
+                    –
+                    <a href="https://wa.me/967779781978" target="_blank" rel="noopener noreferrer">تواصل معنا</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/966558459841" target="_blank" class="whatsapp-float"><i class="fab fa-whatsapp"></i></a>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

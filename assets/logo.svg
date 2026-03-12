@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 160" fill="none">
+  <defs>
+    <!-- Warm, spiritual golden gradient representing flame, warmth, and culinary art -->
+    <linearGradient id="warm-gold" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#b58542"/>
+      <stop offset="50%" style="stop-color:#d4af37"/>
+      <stop offset="100%" style="stop-color:#f4e69b"/>
+    </linearGradient>
+    <!-- Soft, organic green gradient representing a leaf, purity, and natural ingredients -->
+    <linearGradient id="soft-green" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7f9c73"/>
+      <stop offset="100%" style="stop-color:#4a6640"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#d4af37" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <!-- === SPIRITUAL KITCHEN LOGO === -->
+
+  <!-- Central Flame / Drop / Leaf Shape -->
+  <path 
+    d="M 100 20 
+       C 130 65, 145 100, 125 125 
+       C 110 145, 90 145, 75 125 
+       C 55 100, 70 65, 100 20 
+       Z" 
+    fill="url(#soft-green)" 
+    opacity="0.9" 
+    filter="url(#glow)"/>
+
+  <!-- Inner Whisks / Spiritual Energy Lines intersecting like a Lotus/Whisk -->
+  <!-- Left curve -->
+  <path 
+    d="M 100 35 
+       C 85 70, 75 100, 85 120" 
+    fill="none" 
+    stroke="url(#warm-gold)" 
+    stroke-width="4" 
+    stroke-linecap="round"/>
+  
+  <!-- Right curve -->
+  <path 
+    d="M 100 35 
+       C 115 70, 125 100, 115 120" 
+    fill="none" 
+    stroke="url(#warm-gold)" 
+    stroke-width="4" 
+    stroke-linecap="round"/>
+
+  <!-- Center pillar (Handle/Core) -->
+  <line 
+    x1="100" y1="35" 
+    x2="100" y2="135" 
+    stroke="url(#warm-gold)" 
+    stroke-width="5" 
+    stroke-linecap="round"/>
+
+  <!-- Abstract Bowl / Crescent Moon hugging the base (Nourishment/Spirituality) -->
+  <path 
+    d="M 60 110 
+       C 75 145, 125 145, 140 110" 
+    fill="none" 
+    stroke="url(#warm-gold)" 
+    stroke-width="6" 
+    stroke-linecap="round" 
+    filter="url(#glow)"/>
+
+</svg>
