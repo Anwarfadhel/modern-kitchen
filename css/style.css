@@ -1119,6 +1119,30 @@ button {
   box-shadow: 0 8px 30px rgba(37, 211, 102, 0.5);
 }
 
+/* --- Floating Call Button --- */
+.call-float {
+  position: fixed;
+  bottom: 100px;
+  left: 30px;
+  z-index: 999;
+  width: 60px;
+  height: 60px;
+  background: var(--copper);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--white);
+  font-size: 1.5rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  transition: all var(--transition-base);
+}
+
+.call-float:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+}
+
 @keyframes whatsappPulse {
 
   0%,
@@ -1808,4 +1832,30 @@ button {
     height: 52px;
     font-size: 1.5rem;
   }
+}
+
+/* --- Image Watermark --- */
+.hero__bg::after,
+.gallery-item::after,
+.about-image::after,
+.blog-card__img::after,
+.lightbox::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: min(50%, 150px);
+  aspect-ratio: 1;
+  background-image: url('../assets/logo2.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 15;
+  opacity: 0.7;
+  pointer-events: none;
+}
+
+.blog-card__img, .about-image {
+  position: relative;
 }
